@@ -12,6 +12,7 @@ deno install --allow-read --allow-write {path}/ordenar.ts
 ```
 
 Si es la primer aplicacion instalada por deno deberas agregar al path el directorio ~\.deno\bin
+
 ------------------------------------------------------------------------------------------------
 
 O bien descargando el archivo ejecutable
