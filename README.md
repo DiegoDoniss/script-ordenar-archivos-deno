@@ -15,3 +15,6 @@ Si es la primer aplicacion instalada por deno deberas agregar al path el directo
 ------------------------------------------------------------------------------------------------
 
 O bien descargando el archivo ejecutable
+
+## Uso
+Simplemente ejecute el archivo ordenar.exe e ingrese el path
