@@ -2,7 +2,9 @@ import { ensureDirSync, moveSync } from "https://deno.land/std@0.139.0/fs/mod.ts
 import { ifiles, extensiones } from "./interfaces.ts";
 import { folders } from "./admitidos.ts";
 
-let path: string = prompt('ingresa el directorio que deseas ordenar') || '';
+let path: string = Deno.args.length > 0 ?
+  Deno.args[0] :
+  prompt('ingresa el directorio que deseas ordenar') || '';
 if (path[path.length - 1] != "\\" || path[path.length - 1] != "/") path = path + '/'
 
 let { archivos, carpetas }: { archivos: ifiles[], carpetas: string[] } = { archivos: [], carpetas: [] }
