@@ -16,6 +16,8 @@ export const folders = {
     gdoc: "Documentos Word",
     doc: "Documentos Word",
     docx: "Documentos Word",
+    ppt: "Presentaciones",
+    pptx: "Presentaciones",
     rar: "Archivos comprimidos",
     zip: "Archivos comprimidos",
     cpp: "Programacion",
